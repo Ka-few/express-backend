@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "The Rust Bucket Begins",
+      "author": "Francis the car Doctor",
+      "content": "Today marks the first step of my journey restoring a 1984 Toyota Land Cruiser. It's been sitting in my dad's shed for years, covered in dust and rust. The engine doesn’t start, and the body has seen better days, but I'm determined to bring it back to life. Let the teardown begin!",
+      "image": "https://www.carjunction.com/car_images2/86139_98111/98111b_578x417.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Engine Overhaul Weekend",
+      "author": "Francis the car Doctor",
+      "content": "Spent the entire weekend in the garage. Removed the old engine block — heavy as hell! Replaced piston rings, cleaned the valves, and swapped in a new camshaft. I documented everything with pictures and labeled each part meticulously. The goal: clean start and no leftover bolts!",
+      "image": "https://i.ebayimg.com/thumbs/images/g/XVcAAOSwhIVnBbyH/s-l1200.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Paint, Polish, and Pride",
+      "author": "Francis the car Doctor",
+      "content": "Bodywork is DONE! After hours of sanding, priming, and painting, the old Land Cruiser is now a shining forest green. Clear coat went on smoothly and gave it a nice gloss. It's amazing to see it slowly transforming from a wreck to a road-worthy machine.",
+      "image": "https://cdn.dealeraccelerate.com/driver/1/699/25052/1920x1440/1998-toyota-land-cruiser-vx-limited"
+    },
+    {
+      "title": "Interior works",
+      "author": "Francis the car Doctor",
+      "content": "working on the interior of the car",
+      "image": "https://media-r2.carsandbids.com/cdn-cgi/image/width=542,quality=70/8bbf0f64fbfad81f6867cff798d92495738b23a7/photos/r4qVdelP-0K4xOaN7Af-(edit).jpg?t=170917305665",
+      "id": 4
+    },
+    {
+      "title": "Sound system and cool gadgets",
+      "author": "Francis the car Doctor",
+      "content": "Pimping the sound of our car. New speakers including a subwoofer and a new stereo with display functionalities",
+      "image": "https://skywave.co.ke/wp-content/uploads/2025/04/Retractable-Android-Car-Stereo-System-431x431.jpg",
+      "id": 5
+    }
+    
+  ]
+}

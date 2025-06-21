@@ -1,2 +1,2 @@
-# express-backend
-express backend version of the blog manager
+# code-challenge-3
+Simple Blog Manager
