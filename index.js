@@ -10,7 +10,7 @@ const imageInput = document.getElementById('image');
 
 const postContent = document.getElementById('post-content');
 
-// Load posts on page load
+// Load posts on page load 
 const main = function () {
   fetch('http://localhost:3000/posts')
     .then(response => response.json())
