@@ -12,7 +12,7 @@ const postContent = document.getElementById('post-content');
 
 // Load posts on page load 
 const main = function () {
-  fetch('http://localhost:3000/posts')
+  fetch('https://car-restoration-api.onrender.com/posts')
     .then(response => response.json())
     .then(posts => displayPosts(posts))
     .catch(error => console.error('Error fetching posts:', error));
@@ -40,7 +40,7 @@ function displayPosts(posts) {
 
 //Render the selected posts on the main display area
 function handlePostClick(id) {
-  fetch(`http://localhost:3000/posts/${id}`)
+  fetch(`https://car-restoration-api.onrender.com/posts/${id}`)
     .then(response => response.json())    
     .then(post => {
       postContent.innerHTML = `
@@ -78,7 +78,7 @@ const addNewPostListener = function (e) {
   }
 
   // Send POST request to JSON Server
-  fetch('http://localhost:3000/posts', {
+  fetch('https://car-restoration-api.onrender.com/posts', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(newPost)
@@ -113,7 +113,7 @@ function deletePost(id) {
 
   if (!confirmed) return;
 
-  fetch(`http://localhost:3000/posts/${id}`, {
+  fetch(`https://car-restoration-api.onrender.com/posts/${id}`, {
     method: 'DELETE'
   })
     .then(response => {
